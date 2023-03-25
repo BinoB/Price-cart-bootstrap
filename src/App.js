@@ -65,7 +65,7 @@ function App() {
               </div>
               <div className="price mt-5">
                 <p>
-                  <b>${active === "monthly" ? "10" : "120"}</b>
+                  <b>₹{active === "monthly" ? "100" : "1200"}</b>
                   <span> / {active === "monthly" ? "month" : "year"}</span>
                 </p>
               </div>
@@ -105,7 +105,7 @@ function App() {
               </div>
               <div className="price mt-5">
                 <p>
-                  <b>${active === "monthly" ? "20" : "230"}</b>
+                  <b>₹{active === "monthly" ? "200" : "2200"}</b>
                   <span> / {active === "monthly" ? "month" : "year"}</span>
                 </p>
               </div>
@@ -145,7 +145,7 @@ function App() {
               </div>
               <div className="price mt-5">
                 <p>
-                  <b>${active === "monthly" ? "30" : "350"}</b>
+                  <b>₹{active === "monthly" ? "300" : "3000"}</b>
                   <span> / {active === "monthly" ? "month" : "year"}</span>
                 </p>
               </div>
